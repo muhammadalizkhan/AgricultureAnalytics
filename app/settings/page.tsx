@@ -9,8 +9,8 @@ import { Switch } from "@/components/ui/switch";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion } from "framer-motion";
 import {
-  Settings as SettingsIcon, // Renamed here
   User,
+  Settings as SettingsIcon,
   Bell,
   Shield,
   Globe,
@@ -62,7 +62,7 @@ const securitySettings = [
   },
 ];
 
-export default function Settings() {
+export default function SettingsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-secondary">
       <Navigation />
